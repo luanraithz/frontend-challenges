@@ -6,8 +6,8 @@
 
 ### Desktop
 
-![Desktop](img/desktop.png)
+![Desktop](src/img/desktop.png)
 
 ### Mobile and Lower than 800 pixels screens
 
-![Mobile](img/mobile.png)
+![Mobile](src/img/mobile.png)
