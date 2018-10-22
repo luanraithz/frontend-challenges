@@ -1,0 +1,84 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body, html {
+  background-color: rgb(58, 179, 168);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 10% 70% 20%;
+  grid-column: 1 / 4 ;
+  grid-row: 1 / 4;
+}
+.container {
+  border-radius: 4px;
+  background-size: 95%;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-image: url(./img/bicycle.png);
+  background-position-y: 215px;
+  background-position-x: center;
+  grid-column: 2;
+  grid-row: 2;
+  box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.4);
+  padding: 40px 70px;
+}
+.header {
+  display: grid;
+  grid-template-columns: 85% 15%;
+  grid-template-rows: 60px 25px;
+  align-items: center
+}
+.title{ 
+  font-weight: 600;
+}
+.order {
+  grid-column: 1 / 3;
+  font-size: 15px;
+  color: rgb(155, 155, 155);
+}
+.profile_box {
+  border: 1px solid rgb(202, 198, 198);
+  height: 45px;
+  width: 45px;
+  justify-self: end;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.profile_box:hover{
+  box-shadow: 0.5px 0.5px 15px 0.5px  #9E9E9E;
+}
+.profile_image{
+  height: 60%;
+}
+.table {
+  margin-top: 25px;
+  display: grid;
+  grid-template-rows: repeat(3, 50px);
+}
+.item, .result {
+  display: grid;
+  grid-template-columns: 85% 15%;
+}
+.amount {
+  justify-self: right;
+  font-weight: 600;
+}
+.total {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.item_label, .total {
+  color: #777777
+}
+
+@media only screen and (max-width: 920px) {
+  .container {
+    padding: 25px;
+  }
+}

@@ -1,6 +1,6 @@
 # 1 Loop - 2 Step
 
-## Responsive design using flex layout
+## Design using flex layout
 
 ## Preview
 
