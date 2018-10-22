@@ -49,11 +49,13 @@ body, html {
   font-size: 50px;
   font-weight: 500;
 }
-.item-price strong {
+.item-price .amount {
   vertical-align: text-top;
 }
 .item-price span {
   vertical-align: bottom;
+  position: relative;
+  top: 7px;
 }
 
 
