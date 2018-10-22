@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(163, 201, 224);
+  font-family: Roboto , Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  display: grid;
+  grid-template-columns: 35% 30% 35%;
+  grid-template-rows: 15% 60% 25%;
+}
+.container {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: grid;
+  grid-template-rows: 10% 79% 1% 10%;
+  background-color: white;
+}
+.header {
+  display: flex;
+  background-color: rgb(100, 122, 182);
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+.header .name {
+  flex: 6;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+}
+.header img {
+  flex: 1;
+}
+.header .dot {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  font-size: 35px;
+}
+.chat {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  justify-items: flex-end;
+}
+.date-day {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: 2;
+}
+.date-day span {
+  padding: 0 5px;
+  color: rgb(192, 218, 241);
+}
+.message {
+  flex: 3;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: flex-end;
+}
+.message div {
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 75%;
+}
+.message span{
+  color: rgb(192, 218, 241);
+}
+.message.me {
+  align-items: flex-end;
+}
+.message.them {
+  align-items: flex-start;
+}
+.message.me div{
+  background-color: rgb(173, 210, 211);
+}
+.message.them div{
+  background-color: rgb(131, 180, 226);
+}
+.message.danger div{
+  background-color: rgb(240, 122, 122);
+}
