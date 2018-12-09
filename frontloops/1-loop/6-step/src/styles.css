@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.image {
+  flex: 2;
+  background-image: url(img/side.jpg);
+  background-size: cover;
+}
+
+.container {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 100px 0px 0px 110px;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 75px;
+  font-weight: 100;
+}
+
+.social_area {
+  flex: 5;
+  padding: 0px 110px;
+}
+
+.social_media {
+  padding: 35px;
+  margin: 15px;
+  border: 1px solid rgba(182, 179, 179, 0.5);
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social_media:hover{
+  transition: 0.3s;
+  border-color: transparent;
+  box-shadow: 10px 10px 10px rgba(204, 204, 204, 0.5);
+  outline: none;
+}
+
+.social_media span{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(144, 144, 144);
+  margin: 0 auto;
+}
+
+.footer {
+  flex: 1;
+  border-top: 1px solid rgb(161, 161, 161);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+}
+
+.header span:not(.title) {
+  margin-top: 5px;
+  color: rgb(170, 170, 170);
+}
+
+.social_icon {
+  width: 30px;
+  height: 30px;
+}
+
+.sign_up_email {
+  text-transform: uppercase;
+  color: rgb(170, 170, 170);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sign_up_email:hover {
+  color: black;
+}
