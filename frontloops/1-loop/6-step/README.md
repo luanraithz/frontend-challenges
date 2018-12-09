@@ -2,7 +2,7 @@
 
 ## Design using display flex
 
-## Preview or if you prefer [live preview](src/index.html)
+## Preview or if you prefer [live preview](https://luanraithz.github.io/frontend-challenges/frontloops/1-loop/6-step/src/index.html)
 
 ### Desktop
 
