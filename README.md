@@ -2,7 +2,7 @@
 
 ## Useful links
 
-  1. [Frontloops](https://frontloops.io/markup/)
+  1. [Frontloops](https://frontloops.io)
 
 ## Contents
 
