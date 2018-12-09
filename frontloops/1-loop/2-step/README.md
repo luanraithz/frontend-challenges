@@ -2,7 +2,7 @@
 
 ## Design using flex layout
 
-## Preview
+## Preview or if you prefer [live preview](src/index.html)
 
 ### Desktop
 
