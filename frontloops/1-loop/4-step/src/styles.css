@@ -5,7 +5,7 @@
 body, html {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(rgb(209, 214, 236), rgb(151, 172, 228));
+  background-image: linear-gradient(#d8e6f1, #87a5c0);
   font-family: Roboto , Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
@@ -22,7 +22,7 @@ body {
 }
 .header {
   display: flex;
-  background-color: rgb(140, 151, 182);
+  background-color: #6a96d8;
   flex-direction: row;
   align-items: center;
   color: white;
@@ -62,7 +62,7 @@ body {
 }
 .date-day span {
   padding: 0 5px;
-  color: rgb(192, 218, 241);
+  color: #dee0e4;
 }
 .message {
   flex: 2;
@@ -87,13 +87,13 @@ body {
   align-items: flex-start;
 }
 .message.me div{
-  background-color: rgb(173, 210, 211);
+  background-color: #f2f2f2;
 }
 .message.them div{
-  background-color: rgb(131, 180, 226);
+  background-color: #e6edf6;
 }
 .message.danger div{
-  background-color: rgb(240, 122, 122);
+  background-color: #ffc2c1;
 }
 .user_message{
   align-items: center;
@@ -110,7 +110,7 @@ body {
 }
 .user_message .user_send{
   font-weight: 600;
-  color: cornflowerblue;
+  color: #6a96d8;
   font-size: 20px;
   flex: 1;
   text-transform: uppercase;
